@@ -1,7 +1,7 @@
 ## Escape AI
 AI learns escape a room. 
 
-This is a [rust](https://www.rust-lang.org/) based implementation of a genetic algorithm simulation that trains an AI named Zoe to escape from five rooms of increasing difficulty. The simulation is built using the [macroquad](https://macroquad.rs/) library.
+This is a [rust](https://www.rust-lang.org/) based implementation of a genetic algorithm and reinforcement learning simulation that trains an AI named Zoe to escape from five rooms of increasing difficulty. The simulation is built using the [macroquad](https://macroquad.rs/) library.
 
 ## Demo
 [![youtube](https://img.youtube.com/vi/OeojCLDKaJU/0.jpg)](https://www.youtube.com/watch?v=OeojCLDKaJU)
