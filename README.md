@@ -18,7 +18,7 @@ This is a [rust](https://www.rust-lang.org/) based implementation of a genetic a
     ```
 - To update the simulation configurations use the configs file located at `src/configs.rs`
 
-## Tiled
+## Create custom rooms
 - [Tiled map editor](https://www.mapeditor.org/) is used for building the 2d levels
 - To create custom levels and play around with the AI, use tile layers with names `player`, `keys`, `door`, `walls`, `spikes`, `enemies` and `background`. I suggest taking a look at how other maps are built to understand how things are to be setup.
 
