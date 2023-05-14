@@ -51,6 +51,13 @@ async fn main() {
         if is_key_pressed(KeyCode::Escape) {
             break;
         }
+
+        if !editor.settings.is_draw {
+            for _ in 0..100 {
+                stats = simulation.update(&editor).unwrap_or(stats);
+            }
+        }
+
         next_frame().await
     }
 }
