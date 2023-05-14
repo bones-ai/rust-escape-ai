@@ -45,3 +45,4 @@ This is a [rust](https://www.rust-lang.org/) based implementation of a genetic a
 - Try restarting (using shortcut `r`). It's impossible to get the same results as in the youtube video as every simulation run is random. Sometimes Zoe might get stuck (or spend a lot of time/steps) in a region, letting the simulation run for a longer is an option (but it'll take a long time).
 - Update `NUM_FRAMES` to a larger value. Once the room is solved, Zoe will try to solve the room more efficiently (i.e taking less steps)
 - Run the simulation at 5x (by using shortcut `Right Shift`). Some rooms can take a lot of generations to solve.
+- Disable the drawings in the egui menu to speed up the training process
